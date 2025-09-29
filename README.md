@@ -5,7 +5,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width" />
-		<title>Jaime Melo</title>
+		<title>Jaime Melo Portfolio</title>
 		<link rel="stylesheet" type="text/css" href="Portfolio.css">
 	</head>
 	
@@ -79,7 +79,7 @@
 		<div class="Row" id="Github">
 			<!--Left Column-->
 			<div class="Column_2">
-				<a href= target="_blank"><img src="github_1.jpg" alt="GitHub Logo"><a/>
+				<a href= target="_blank"><img src="github_1.jpg" alt="GitHub Logo"></a>
 			</div>
 			<!--Right Column-->
 			<div class="Column_1">
@@ -87,7 +87,7 @@
 				<p>
 					<h4>Check out my coding projects on my Github profile. Click the link below.</h4>
 					<br>
-					<p class="center"><a href=https://github.com/poymelo84/HTML-and-CSS-Projects target="_blank">Jaime's coding projects</a></p>
+					<p class="center"><a href="https://github.com/poymelo84/HTML-and-CSS-Projects" target="_blank">Jaime's coding projects</a></p>
 				</p>
 					<h2><img src="github_2.webp" alt="404 file not found" class="no-style"></h2>
 			</div>
