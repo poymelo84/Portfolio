@@ -79,7 +79,7 @@
 		<div class="Row" id="Github">
 			<!--Left Column-->
 			<div class="Column_2">
-				<a href= target="_blank"><img src="github_1.jpg" alt="GitHub Logo"></a>
+				<a> href= target="_blank"><img src="github_1.jpg" alt="GitHub Logo"></a>
 			</div>
 			<!--Right Column-->
 			<div class="Column_1">
