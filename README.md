@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="eng">
 	<!--Head-->
 	<head>
 		<meta charset="UTF-8">
@@ -27,7 +27,7 @@
 		<!--Background video-->
 		<div id="Home">
 			<video autoplay muted loop id="Typing_Video">
-				<source src="video.mp4" type="video/mp4">
+				<source src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\Portfolio\video.mp4" type="video/mp4">
 				<!--Display message if video fails to run-->
 				Your browser does not support HTML5 video.
 			</video> 
@@ -70,7 +70,7 @@
 		
 		<!--Right Column-->
 			<div class="Column_2">
-				<img src="img_1.jpg" alt="Replace with your own image and description">
+				<img src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\Portfolio\img_1.jpg" alt="Replace with your own image and description">
 			</div>
 			<!--Right Column-->
 		</div>
@@ -79,7 +79,7 @@
 		<div class="Row" id="Github">
 			<!--Left Column-->
 			<div class="Column_2">
-				<a> href= target="_blank"><img src="github_1.jpg" alt="GitHub Logo"></a>
+				<a href="https://github.com/" target="_blank"><img src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\Portfolio\github_1.jpg" alt="GitHub Logo"></a>
 			</div>
 			<!--Right Column-->
 			<div class="Column_1">
@@ -87,9 +87,9 @@
 				<p>
 					<h4>Check out my coding projects on my Github profile. Click the link below.</h4>
 					<br>
-					<p class="center"><a href="https://github.com/poymelo84/HTML-and-CSS-Projects" target="_blank">Jaime's coding projects</a></p>
+					<p class="center"><a href=https://github.com/poymelo84/HTML-and-CSS-Projects target="_blank">Jaime's coding projects</a></p>
 				</p>
-					<h2><img src="github_2.webp" alt="404 file not found" class="no-style"></h2>
+					<h2><img src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\Portfolio\github_2.webp" alt="404 file not found" class="no-style"></h2>
 			</div>
 		</div>
 		
@@ -112,7 +112,7 @@
 			</div>
 			<!--Contact image, left column-->
 			<div class="Column_2 Column_tall">
-				<img src="img_2.webp" alt="Contact_Image">
+				<img src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\Portfolio\img_2.webp" alt="Contact_Image">
 			</div>
 		</div>
 		
@@ -120,7 +120,7 @@
 		<footer>
 			<p>
 				<p class="center">&copy Copyright, <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>	 
-				<img src="img_3.png" alt="404 file not found" class="no-style1">
+				<img src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\Project Folder\images\Thumb\thumbnail_15.png" alt="404 file not found" class="no-style1">
 			</p>
 			</footer>
 	</body>
@@ -186,4 +186,4 @@
 			
 			
 			
-		>
+		
