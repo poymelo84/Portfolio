@@ -1,11 +1,9 @@
 
-
-
 <html lang="eng">
 	<!--Head-->
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width"/>
 		<title>Jaime Melo Portfolio</title>
 		<link rel="stylesheet" type="text/css" href="Portfolio.css">
 	</head>
@@ -20,16 +18,13 @@
 			<a href="#GitHub">GitHub</a>
 			<a href="#Contact">Contact</a>
 		</div>
-		<!--Breaks inserted to add space between navbar and the first heading-->
-		<!--Background video-->
-		<div id="Home">
+		<div id="Home">  	<!--Background video-->
 			<video autoplay muted loop id="Typing_Video">
 				<source src="video.mp4" type="video/mp4">
 				<!--Display message if video fails to run-->
 				Your browser does not support HTML5 video.
 			</video> 
 		</div>
-		
 		<!--Video text-->
 		<div class="Video_Text">
 			<h1 class="white-text">Jaime Melo's Portfolio</h1>
@@ -181,6 +176,9 @@
 			
 			
 		
+
+
+
 
 
 
