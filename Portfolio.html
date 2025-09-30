@@ -32,8 +32,6 @@
 		
 		<!--Video text-->
 		<div class="Video_Text">
-			<br>
-			<br>
 			<h1 class="white-text">Jaime Melo's Portfolio</h1>
 			<br>
 			<strong>
@@ -184,6 +182,7 @@
 			
 			
 		
+
 
 
 
