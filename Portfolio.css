@@ -106,10 +106,6 @@ images */
 	height: 50px;
 }
 
-.no-style2 {
-	width: 400px;
-	height: 200px;
-
 /* Image element hover effects */
 img:hover {
 		filter: grayscale(5%); /*Brings back most of the image's color when hovered
@@ -382,6 +378,7 @@ form {
 	
 	
 	
+
 
 
 
