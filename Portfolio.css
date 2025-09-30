@@ -296,7 +296,7 @@ input[type=text] {
 	border-radius: 4px; /* Slightly rounds the corners of the text box border */
 	box-sizing: border-box; /* This creates a box with a border around the contact form input boxes */
 	margin-top: 6px; /* Adds a margin to the top of the text box */
-	margin-bottom: 10px; /* Adds a margin to the bottom of the text box */
+	margin-bottom: 7px; /* Adds a margin to the bottom of the text box */
 	resize: vertical; /* This allows the user to resize the text boxes vertically */
 	font-family: Perpetua, Rockwell Extra Bold;
 	font-size: 18px;
@@ -378,6 +378,7 @@ form {
 	
 	
 	
+
 
 
 
