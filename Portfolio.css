@@ -321,7 +321,7 @@ input[type=submit] {
 	margin-left: auto; /* In combination with "margin-right: auto", this will center the submit button */
 	margin-right: auto;
 	font-family: Perpetua, Rockwell Extra Bold;
-	margin-top: 1%;
+	margin-top: 3%;
 }
 
 /* Hover effect for submit button */
@@ -378,6 +378,7 @@ form {
 	
 	
 	
+
 
 
 
