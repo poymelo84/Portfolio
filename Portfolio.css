@@ -235,6 +235,7 @@ navbar */
 	-webkit-animation: moveVideoText 5.75s;
 	animation: moreVideoText 5.75s;
 	font: Perpetua;
+	margin-top: 1px;
 }
 
 /* This animation effect causes the overlay video text to move up from the bottom of the page upon page load */
@@ -384,6 +385,7 @@ form {
 	
 	
 	
+
 
 
 
