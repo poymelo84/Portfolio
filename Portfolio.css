@@ -81,9 +81,9 @@ img {
 	height: 300px; /*Sets the height of all images */
 	display: block; /*By specifying block display, we can ensure our images are able to
 be centered */
-	margin-left: auto; /* In combination with "margin-right: auto" this centers all
+	margin-left: 5px; /* In combination with "margin-right: auto" this centers all
 images */
-	margin-right: auto;
+	margin-right: 5px;
 }
 
 .no-style {
@@ -376,6 +376,7 @@ form {
 	
 	
 	
+
 
 
 
