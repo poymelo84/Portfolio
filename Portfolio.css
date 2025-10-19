@@ -1,7 +1,12 @@
+html {
+	scroll-behavior: smooth;
+}
+
+
 /***** GENERAL STYLING -----/
 /* Body */
 body {
-	margin: 0px /* This ensures our site displays all the way to the edge of the browser
+	margin: 0% /* This ensures our site displays all the way to the edge of the browser
 	screen */
 }
 
@@ -39,7 +44,7 @@ p {
 	font-family: Calibri;
 	text-align: justify; /* Justify text within paragraph elements */
 	letter-spacing: 1px; /* This expands the text slightly */
-	font-size: 16px;
+	font-size: 22px;
 	padding-left: 20px; /* Adds padding to the left of the paragraph element */
 	padding-right: 20px; /* Adds padding to the right of the paragraph element */
 }
@@ -77,15 +82,13 @@ q {
 img {
 	filter: grayscale(25%); /* This rids our pictures of 75% of their color */
 	border-radius: 8px; /* Gives all images slightly rounded corners */
-	max-width: 50%; /* Ensures all images stay within the width of their container */
-	height: 300px; /*Sets the height of all images */
+	max-width: 100%; /* Ensures all images stay within the width of their container */
+	height: 340px; /*Sets the height of all images */
 	display: block; /*By specifying block display, we can ensure our images are able to
 be centered */
 	margin-left: auto; /* In combination with "margin-right: auto" this centers all
 images */
 	margin-right: auto;
-	margin-top: 14px;
-	margin-bottom: auto;
 }
 
 .no-style {
@@ -99,17 +102,12 @@ images */
 }
 
 .no-style1 {
-	float: right;
+	float: center;
 	position: relative;
-	margin-top: -54px;
-	width: 50px;
-	height: 50px;
-}
-
-.no-style2 {
-	margin-top: 45px;
-	width: 410px;
-	height: 260px;
+	margin-top: -57px;
+	margin-left: 1100px;
+	width: 40px;
+	height: 40px;
 }
 
 /* Image element hover effects */
@@ -147,11 +145,11 @@ of our navbar is not displayed */
 	background-color: rgb(46, 42, 42); /* This colors the navbar black */
 	position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
 	top: 0; /* This ensures that no space is displayed above the navbar */
-	width: 63.55%; /* This makes the navbar span the entire width of the page */
+	width: 100%; /* This makes the navbar span the entire width of the page */
 	z-index: 1; /* This ensures other elements don't display over the navbar */
 	-webkit-animation: moveNav 5s; /* This applies the moveNav animation below for Safari
 4.0 - 8.0 */
-	animation: moveNav 5s; /* This applies the moveNav animation for all the other browsers
+	animation: moveNav 5s; /* This applie the moveNav animation for all the other browsers
 */
 }
 
@@ -172,12 +170,13 @@ row, instead of a new line */
 navbar */
 	font-family: Avant garde, Helvetica; /* This specifies the font family for text on
 our navbar */
-	font-size: 20px; /*This specifies the font size for text on our navbar */
+	font-size: 26px; /*This specifies the font size for text on our navbar */
 	text-align: center; /*This centers the text within its container */
 	position: relative; /*This sets the text relative to its normal positioning,
 allowing us to use the animation below */
 	-webkit-animation: moveNavText 5.75s; /* Animation for Safari 4.0 - 8.0 */
 	animation: moveNavText 5,75s; /* Applies the moveNavText animation for 5.75s */
+	cursor: pointer;
 }
 
 /* moveNavText animation effect for moving the navbar text from above the view to the
@@ -191,7 +190,7 @@ navbar */
 @media screen and (max-width: 576px) {
 	.Navbar a{
 		width: 25%; /* This makes each link take up 1/4 of the navbar */
-		font-size: 12px;
+		font-size: 12x;
 	}
 }
 
@@ -235,7 +234,6 @@ navbar */
 	-webkit-animation: moveVideoText 5.75s;
 	animation: moreVideoText 5.75s;
 	font: Perpetua;
-	margin-top: 1px;
 }
 
 /* This animation effect causes the overlay video text to move up from the bottom of the page upon page load */
@@ -303,7 +301,7 @@ input[type=text] {
 	border-radius: 4px; /* Slightly rounds the corners of the text box border */
 	box-sizing: border-box; /* This creates a box with a border around the contact form input boxes */
 	margin-top: 6px; /* Adds a margin to the top of the text box */
-	margin-bottom: 0px; /* Adds a margin to the bottom of the text box */
+	margin-bottom: 16px; /* Adds a margin to the bottom of the text box */
 	resize: vertical; /* This allows the user to resize the text boxes vertically */
 	font-family: Perpetua, Rockwell Extra Bold;
 	font-size: 18px;
@@ -328,7 +326,7 @@ input[type=submit] {
 	margin-left: auto; /* In combination with "margin-right: auto", this will center the submit button */
 	margin-right: auto;
 	font-family: Perpetua, Rockwell Extra Bold;
-	margin-top: 3%;
+	margin-top: 1%;
 }
 
 /* Hover effect for submit button */
@@ -347,110 +345,188 @@ form {
 	font-family: "Trebuchet MS", Optima;
 }
 
-/***** END OF CONTACT FORM STYLING *****/
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*---POP-UP FORM CSS---*/
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  font-size: 20px;
+  background-color: #1e1c1c;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 350px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 357px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #9fa6a3;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: rgb(3, 3, 3);
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+/*--POP-UP FORM CSS END--*/
+
+/*--SLIDESHOW--*/
+#Slideshow_Background {
+    background: rgba(255, 255, 255, 0.35); /* This creates a slightly transparent white background that's palced over the video in the background */    
+}
+
+.mySlides{
+    display: none; /* This prevents the images from being displayed, we will use JS to display these */
+}
+
+/* Slideshow section / container */
+#Slideshow_Container {
+    width: 39.5vw; /* Relative sizing of the container for the slidewshow set to 39.5% of the viewport width */
+    height: auto; /* The height of the container is automatically adjusted based on the content it is displaying */
+    padding-top: 4%; /* Adds a small padding to the top of the slideshow container */
+    position: relative; /* This sets the container relative to its normal positioning */
+    margin:auto; /* This will horizontally center the container on the page */
+}
+
+/* Remove the underline from the previous and next buttons on the slideshow */
+#Slideshow_Container a {
+    text-decoration: none;
+}
+
+/* Images contained within the slideshow */
+.Slideshow_Images {
+    vertical-align: middle; /* This centers the images vertically within the slideshow container */
+    height: auto; /* The height of the images is automatically adjusted based on the content, ie if your images are different sizes, they will display as different sizes */
+    box-shadow: 0px 5px 10px 12px rgba(0, 0, 0, .75); /* Adds a shadow around the slideshow images */
+    width: 100%; /* The width of the images is automatically adjusted based on the content */
+}
+
+/* Next and previous buttons */
+.Previous, .Next {
+    cursor: pointer; /* Changes the mouse to a pointer when the buttons are selected */
+    position: absolute; /* This makes the next and previous buttons positioned relative to the slideshow container */
+    top: 50%; /* This moves the buttons up in the slideshow container */
+    width: auto; /* The width of the buttons is automatically adjusted based on the content */
+    padding: 2vw; /* Adds padding equal to 2% of the viewport width */
+    color: darkgray; 
+    font-weight: bold;
+    font-size: 1.5vw;
+    border-radius: 0 3px 3px 0; /* Adds a slightly rounded border on the top and bottom right corners */
+    user-select: none; /* This property makes it so that the user cannot highlight the text */
+    transition: 0.6s ease; /* This specifies the details of the hover transition for these elements */
+}
+
+/* Positioning the next button on the right hand side */
+.Next {
+    right: 0; /* This moves the next button to the right side of the slideshow container */
+    border-radius: 3px 0 0 3px; /* This changes the border radius on the next button to the top and bottom left of the button */
+}
+
+/* Hover effect on slide show buttons */
+.Previous:hover, .Next:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Makes the background of the arrows a transparent gray color */
+    color: white; /* Makes the arrows white when hovered over */
+}
+
+/* Slideshow text */
+.text {
+    color: white; 
+    padding: 1vw;
+    position: absolute; /* This ensures the text is positioned within the image */
+    bottom: 0; /* This property sets the text at the bottom of the image */
+    width: 100%; /* The element covers the full width of the image */
+    text-align: center; /* The text is center aligned within the image */
+    font-family: Perpetua, Rockwell Extra Bold;
+    letter-spacing: .1vw; /* This gives slight spacing between the letters */
+    font-size: 1.5vw; /* Font size is relative to the size of the viewport width */
+    background-color: rgba(0, 0, 0, 0.75); /* Gives a slightly transparent black background */
+    font-weight: bold;
+    border-radius: 0px 0px 7px 7px; /* Gives the text background rounded corners on the bottom left and right corners */
+}
+
+/* Styling of the dots under the slideshow */
+.dot {
+    cursor: pointer; /* The cursor changes to pointer when hovered over the dots */
+    height: 1vw; /* The dots are sized relative to the viewport width */
+    width: 1vw;
+    margin: .25vw; /* adds additional spacing between the dots */ 
+    background-color: white; /* Makes the dots white */
+    border-radius: 50%; /* Makes the dots circles by rounding each corner */
+    display: inline-block; /* Allows the dots to sit next to eachother rather than on a new line */
+    transition: background-color 0.6s ease; /* When clicked on the dots transition to a different color when clicked or hovered over (the affect is defined below) */
+    z-index: 1; /* This ensures the dots will be displayed above any other elements */
+}
+
+/* Hover effect for slideshow dots */
+.active, .dot:hover {
+    background-color: black; /* Sets the color of the dots when active or hovered over */
+}
+
+/* Fading animation for slideshow */
+.fade {
+    animation-name: fade; /* Fade animation is defined below */
+    animation-duration: 1.5s; /* The animation lasts 1.5 seconds */
+    -webkit-animation-name: fade; /* Same as above for Safari 4.0-8.0 */
+    -webkit-animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4;} /* Image starts transparent */
+    to {opacity: 1;} /* Image ends opaque */
+}
+
+@keyframes fade {
+    from {opacity: .4;} /* Image starts transparent */
+    to {opacity: 1;} /* Image ends opaque */
+}
 
