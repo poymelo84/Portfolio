@@ -145,7 +145,7 @@ of our navbar is not displayed */
 	background-color: rgb(46, 42, 42); /* This colors the navbar black */
 	position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
 	top: 0; /* This ensures that no space is displayed above the navbar */
-	width: 63.5%; /* This makes the navbar span the entire width of the page */
+	width: 63.5%; /* This makes the navbar span the entire width of the page */									/*=100
 	z-index: 1; /* This ensures other elements don't display over the navbar */
 	-webkit-animation: moveNav 5s; /* This applies the moveNav animation below for Safari
 4.0 - 8.0 */
@@ -253,7 +253,7 @@ navbar */
 	width: 50%; /* This ensures the column takes up half of the page width */
 	padding: 10px;
 	padding-top: 1%; /* This ensures there is space between the top of the column and our headings */
-	height: 400px; /*This sets the height of the column to 400px - this may need to be adjusted depending on the text you enter */
+	height: 300px; /*This sets the height of the column to 400px - this may need to be adjusted depending on the text you enter */							/*=400
 	background-color: #f2f2f2; /* Sets the background color of the columns with class Column_1 */
 }
 
