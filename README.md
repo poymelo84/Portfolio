@@ -121,7 +121,7 @@
 		
 		<!--Right Column-->
 			<div class="Column_2">
-				<img src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\Portfolio\img_1.jpg" alt="Replace with your own image and description">
+				<img src="C:\Users\jaime\OneDrive\Documents\GitHub\Portfolio\img_1.jpg" alt="Replace with your own image and description">
 			</div>
 			<!--Right Column-->
 		</div>
@@ -241,4 +241,5 @@
 			
 			
 			
+
 		
